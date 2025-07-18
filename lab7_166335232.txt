@@ -1,0 +1,58 @@
+test_0 (__main__.lab7a.test_0)
+[Lab 7] - [Investigation 1] - [Part 1] - Test for file creation: ./lab7a.py ... ok
+test_1 (__main__.lab7a.test_1)
+[Lab 7] - [Investigation 1] - [Part 1] - Test for file creation: ./lab7a1.py ... ok
+test_a (__main__.lab7a.test_a)
+[Lab 7] - [Investigation 1] - [Part 1] - Test for errors running: ./lab7a1.py ... ok
+test_a1 (__main__.lab7a.test_a1)
+[Lab 7] - [Investigation 1] - [Part 1] - Test for correct shebang line: ./lab7a1.py ... ok
+test_a_instantiate_class_0 (__main__.lab7a.test_a_instantiate_class_0)
+[Lab 7] - [Investigation 1] - [Part 1] - Test for Creating object - should fail with 4 arguments ... ok
+test_a_instantiate_class_1 (__main__.lab7a.test_a_instantiate_class_1)
+[Lab 7] - [Investigation 1] - [Part 1] - Test for Creating object - should fail with string arguments ... ok
+test_b1_sum_times (__main__.lab7a.test_b1_sum_times)
+[Lab 7] - [Investigation 1] - [Part 1] - Test for sum_times() - should provide the correct output ... ok
+test_b2_sum_times (__main__.lab7a.test_b2_sum_times)
+[Lab 7] - [Investigation 1] - [Part 1] - Test for sum_times() - should provide the correct output ... ok
+test_0 (__main__.lab7b.test_0)
+[Lab 7] - [Investigation 1] - [Part 2] - Test for file creation: ./lab7b.py ... ok
+test_a1 (__main__.lab7b.test_a1)
+[Lab 7] - [Investigation 1] - [Part 2] - Test for correct shebang line: ./lab7b.py ... ok
+test_a_instantiate_class_0 (__main__.lab7b.test_a_instantiate_class_0)
+[Lab 7] - [Investigation 1] - [Part 2] - Test for Creating object - should fail with 4 arguments ... ok
+test_a_instantiate_class_1 (__main__.lab7b.test_a_instantiate_class_1)
+[Lab 7] - [Investigation 1] - [Part 2] - Test for Creating object - should fail with string arguments ... ok
+test_b1_change_time (__main__.lab7b.test_b1_change_time)
+[Lab 7] - [Investigation 1] - [Part 2] - Test for change_time() with +1800 seconds ... ok
+test_b2_change_time (__main__.lab7b.test_b2_change_time)
+[Lab 7] - [Investigation 1] - [Part 2] - Test for change_time() with -1800 seconds ... ok
+test_0 (__main__.lab7c.test_0)
+[Lab 7] - [Investigation 1] - [Part 3] - Test for file creation: ./lab7c.py ... ok
+test_1 (__main__.lab7c.test_1)
+[Lab 7] - [Investigation 1] - [Part 3] - Test for file creation: ./lab7c1.py ... ok
+test_a (__main__.lab7c.test_a)
+[Lab 7] - [Investigation 1] - [Part 3] - Test for errors running: ./lab7c1.py ... FAIL
+
+======================================================================
+FAIL: test_a (__main__.lab7c.test_a)
+[Lab 7] - [Investigation 1] - [Part 3] - Test for errors running: ./lab7c1.py
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/an/ops445/lab7/./CheckLab7.py", line 182, in test_a
+    self.assertEqual(return_code, 0, msg=error_output)
+AssertionError: 1 != 0 : Your lab7c1.py script exited with a error(HINT: make sure you copied the script exactly!)
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.079s
+
+FAILED (failures=1)
+OPS445 Lab Report - System Information for running ./CheckLab7.py
+=================================================================
+    User login name: an
+    Linux system name: an-Mint
+    Python executable: /usr/bin/python3
+    Python version: 3123
+    OS Platform: linux
+    Working Directory: /home/an/ops445/lab7
+    Start at: Fri Jul 18 16:36:30 2025
+=================================================================
